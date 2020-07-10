@@ -430,6 +430,7 @@
       "targets": [
         {
           "expr": "time() - min(wireguard_latest_handshake_seconds) by (friendly_name)",
+          "instant": true,
           "interval": "",
           "legendFormat": "",
           "refId": "A"
@@ -750,5 +751,5 @@
   "timezone": "",
   "title": "cwoellner.com",
   "uid": "vhUckCRgk",
-  "version": 8
+  "version": 9
 }
